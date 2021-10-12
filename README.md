@@ -20,3 +20,6 @@ Models and Relationships
 •	list has many users through userlists 
 
 Wireframe/ Mockup
+
+<img width="752" alt="Screen Shot 2021-10-12 at 3 11 29 PM" src="https://user-images.githubusercontent.com/85143169/137035941-2449e797-ae29-4f52-8550-4a58ef897aa0.png">
+
