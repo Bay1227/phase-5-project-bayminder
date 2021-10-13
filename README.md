@@ -7,17 +7,27 @@ In this project I want to create a reminder application that can be used by fami
 User Stories
 
 •	As a user, I want to be able to create an account, so I can log in and use the app.
-•	As a user, I want to be able to add reminder list, remove list, set reminder and assign to members 
+•	As a user, I want to be able to add reminder lists, remove lists, set reminder and assign them to members 
+
 
 
 Models and Relationships
 
 •	userlist belongs to lists
+
 •	userlist belongs to user
+
 •	user has many userlists
+
 •	user has many lists through userlists
+
 •	list has many userlists
+
 •	list has many users through userlists 
+
+API 
+
+5 RESTful routes [index, show, create, destroy, update]
 
 Wireframe/ Mockup
 
