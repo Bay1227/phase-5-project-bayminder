@@ -43,8 +43,31 @@ Return JSON data in the format below.
  ```
  
  ## GET/users/:id
+
+This route make sure to include and array of lists for each user. 
+```json
+{
+  "id": 1,
+  "name": "Bay",
+  "lists": [
+    {
+      "id": 1,
+      "name": "Reconcile bank account",
+    },
+    {
+      "id": 2,
+      "name": "Pay PUD",
+    }
+  ]
+}
+```
  ## POST/users/lists
+ 
+ This route should create a new `lists` `Users`. 
+ 
  ## DELETE/lists/:id
+ 
+ This route should remove the `Lists` from the database. 
 
 
 
