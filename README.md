@@ -1,33 +1,30 @@
 # phase-5-project-bayminder
 
-bayMINDER
 
 In this project I want to create a reminder application that can be used by family members or team members. They write to do lists and  assign them to team members and when they are done they click it to remove it from the dashboard. 
 
 User Stories
 
 •	As a user, I want to be able to create an account, so I can log in and use the app.
+
 •	As a user, I want to be able to add reminder lists, remove lists, set reminder and assign them to members 
 
 
 
-Models and Relationships
+## Models and Relationships
 
-•	userlist belongs to lists
+- A `User` has many `Userlists`, and has many `List`s through `Userlist`s
+- A `List` has many `Userlists`, and has many `User`s through `Userlist`s
+- A `Userlist` belongs to a `User` and belongs to a `List`
 
-•	userlist belongs to user
 
-•	user has many userlists
 
-•	user has many lists through userlists
-
-•	list has many userlists
-
-•	list has many users through userlists 
 
 API 
 
 5 RESTful routes [index, show, create, destroy, update]
+
+
 
 Wireframe/ Mockup
 
