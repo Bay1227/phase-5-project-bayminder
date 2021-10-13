@@ -18,15 +18,37 @@ User Stories
 - A `Userlist` belongs to a `User` and belongs to a `List`
 
 
-
-
-API 
-
-5 RESTful routes [index, show, create, destroy, update]
+<img width="716" alt="Screen Shot 2021-10-13 at 4 14 20 PM" src="https://user-images.githubusercontent.com/85143169/137225279-f355af79-eb34-4a23-8f12-0e4f32e8f1b9.png">
 
 
 
-Wireframe/ Mockup
+## Routes
+
+## GET/users/lists
+
+Return JSON data in the format below.
+
+```json
+
+[
+  {
+  "id": 1,
+  "name": "Bay"
+  },
+  {
+  "id": 2,
+  "name": "Amgaa"
+  }
+ ]
+ ```
+ 
+ ## GET/users/:id
+ ## POST/users/lists
+ ## DELETE/lists/:id
+
+
+
+## Wireframe/ Mockup
 
 <img width="752" alt="Screen Shot 2021-10-12 at 3 11 29 PM" src="https://user-images.githubusercontent.com/85143169/137035941-2449e797-ae29-4f52-8550-4a58ef897aa0.png">
 
