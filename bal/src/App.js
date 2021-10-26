@@ -14,14 +14,14 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
+      {/* <header className="App-header"> */}
         <ul> 
           {users.map((user) => ( 
             <li key={user.name}>{user.name}</li>
           ))}
         </ul>
       
-      </header>
+      {/* </header> */}
     </div>
   );
 }
